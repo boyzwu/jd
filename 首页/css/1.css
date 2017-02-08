@@ -1,0 +1,116 @@
+/*全局样式*/
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p{
+	padding:0px;
+	margin:0px;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#e4393c;
+	text-decoration:underline;
+}
+img{
+	vertical-align:middle;
+}
+ul,ol{
+	list-style:none;
+}
+body{
+	font-size:12px;
+	color:#333;
+}
+input{
+	border:none;
+}
+.lf{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.red{
+	color:red;
+}
+#box{
+	
+	background: #ddd;
+}
+#header{
+	width: 1211px;
+	background: #ddd;
+	
+	margin: 0 auto;
+	line-height: 32px;
+}
+#header>p>img{
+	vertical-align: baseline;
+
+}
+p{
+	float: left;
+}
+ul{
+	list-style: none;
+}
+#header>ul{
+	float: right;
+
+}
+#header>ul>li{
+	float: left;
+
+}
+s{
+	margin: 0 5px;
+	border-left: 2px solid #fff;
+}
+i{
+	display: inline-block;
+}
+#phone{
+	display:inline-block;
+	width:14px;
+	height:24px;
+	vertical-align:middle;
+	margin-right:5px;
+	background:url(../img/iconlist_2.png) no-repeat -128px -360px; 
+}
+#phonebox:hover #phone{
+	background:url(../img/iconlist_2.png) no-repeat -128px -399px;
+}
+#kehu{
+	width: 82px;
+	position:relative;
+}
+#kehulogo{
+	padding:2px 4px;
+	background:url(../img/jt.jpg) no-repeat 0px 8px;
+	margin-left: 10px;
+}
+#kehu:hover #kehulogo{
+	background:url(../img/jt_up.jpg) no-repeat 0px 8px;
+}
+#kehu:hover{
+	background: #fff;
+}
+#kehu ul{
+	width:82px;
+	text-align:center;
+	position: absolute;
+	border: 1px solid #ddd;
+	border-top:none;
+	
+	background: #fff;
+	top:25px;
+	left:-2px;
+	display:none;
+
+}
+#kehu:hover ul{
+	display:block;
+}
